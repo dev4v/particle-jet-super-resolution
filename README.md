@@ -74,6 +74,6 @@ The adversarial loss encourages the generator to produce realistic images, while
 
 During training, the generator and discriminator are updated iteratively. This process allows the generator to progressively improve its ability to reconstruct detailed jet images.
 
-Training Observations
+## Training Observations
 
 During training of the SRGAN for 200 epochs,  discriminator loss  consistently reached zero, indicating it became very confident in distinguishing generated images from real ones. The generator loss ranged from ~0.05 to 0.07, showing gradual adjustment as it learned to improve image details.  
