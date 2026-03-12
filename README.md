@@ -34,10 +34,10 @@ Each record in the dataset includes:
 | X_jets | High resolution jet image used as ground truth |
 | y | Label associated with the jet sample |
 
-|Scalar properties|
-|--------|--------|
-|pt | transverse momentum |
-|m0 | particle mass |
+| Scalar Property | Description          |
+|-----------------|--------------------|
+| pt              | Transverse momentum |
+| m0              | Particle mass       |
 
 - X_jets_LR represents the low-resolution input image.
 
