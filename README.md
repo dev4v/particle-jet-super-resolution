@@ -35,7 +35,7 @@ Each record in the dataset includes:
 | y | Label associated with the jet sample |
 
 |Scalar properties|
-|-------------|-------------|
+|--------|--------|
 |pt | transverse momentum |
 |m0 | particle mass |
 
