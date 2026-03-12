@@ -36,8 +36,8 @@ Each record in the dataset includes:
 
 |Scalar properties|
 |-------------|-------------|
-pt | transverse momentum|
-m0 | particle mass |
+|pt | transverse momentum |
+|m0 | particle mass |
 
 - X_jets_LR represents the low-resolution input image.
 
