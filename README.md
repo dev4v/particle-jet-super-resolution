@@ -64,7 +64,7 @@ Key training choices:
 | Parameter | Value |
 |-----------|-------|
 | Optimizer | Adam |
-| Learning Rate |  |
+| Learning Rate | 1e-3  |
 | Epochs | 200 |
 | Batch Size | 16 |
 
