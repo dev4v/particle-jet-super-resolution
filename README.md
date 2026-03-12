@@ -43,7 +43,7 @@ y contains associated labels for the jet sample.
 
 The jet images represent energy deposition patterns of particles in detectors used in high-energy physics experiments.
 
-Data Preprocessing
+| Data Preprocessing |
 
 Before training the model, the dataset was processed as follows:
 
@@ -76,5 +76,4 @@ During training, the generator and discriminator are updated iteratively. This p
 
 Training Observations
 
-During later training epochs, the discriminator loss decreased significantly while the generator continued improving. This behavior is common in GAN training and indicates that the generator is producing increasingly realistic outputs.
-
+During training of the SRGAN for 200 epochs,  discriminator loss  consistently reached zero, indicating it became very confident in distinguishing generated images from real ones. The generator loss ranged from ~0.05 to 0.07, showing gradual adjustment as it learned to improve image details.  
