@@ -19,9 +19,9 @@ Convolutional neural networks were used in both the generator and discriminator 
 
 The dataset used in this project consists of particle jet images used for studying super-resolution in high-energy physics. Each sample in the dataset contains a pair of images:
 
-Low-resolution (LR) jet image – used as the model input
+- Low-resolution (LR) jet image – used as the model input
 
-High-resolution (HR) jet image – used as the ground truth target
+- High-resolution (HR) jet image – used as the ground truth target
 
 The dataset is stored in Parquet format, where each entry contains arrays representing the pixel intensities of the jet images.
 
@@ -47,13 +47,13 @@ The jet images represent energy deposition patterns of particles in detectors us
 
 Before training the model, the dataset was processed as follows:
 
-The Parquet file was loaded using Python data processing libraries.
+- The Parquet file was loaded using Python data processing libraries.
 
-Image arrays were converted into PyTorch tensors.
+- Image arrays were converted into PyTorch tensors.
 
-Pixel values were normalized to improve training stability.
+- Pixel values were normalized to improve training stability.
 
-Low-resolution and high-resolution image pairs were prepared for GAN training.
+- Low-resolution and high-resolution image pairs were prepared for GAN training.
 
 Optimization Strategy
 
