@@ -55,7 +55,7 @@ Before training the model, the dataset was processed as follows:
 
 - Low-resolution and high-resolution image pairs were prepared for GAN training.
 
-Optimization Strategy
+## Optimization Strategy
 
 The model was trained using the Adam optimizer, which is commonly used in deep learning due to its stable and efficient convergence.
 
