@@ -34,13 +34,17 @@ Each record in the dataset includes:
 | X_jets | High resolution jet image used as ground truth |
 | y | Label associated with the jet sample |
 
-X_jets_LR represents the low-resolution input image.
+|Scalar properties|
+|-------------|-------------|
+pt | transverse momentum|
+m0 | particle mass |
 
-X_jets represents the corresponding high-resolution image.
+- X_jets_LR represents the low-resolution input image.
 
-y contains associated labels for the jet sample.
+- X_jets represents the corresponding high-resolution image.
 
-The jet images represent energy deposition patterns of particles in detectors used in high-energy physics experiments.
+- y contains associated labels for the jet sample.
+
 
 ## Data Preprocessing 
 
@@ -62,8 +66,8 @@ Key training choices:
 
 | Parameter | Value |
 |-----------|-------|
-| Optimizer | Adam |
-| Learning Rate | 1e-3  |
+| Optimizer | AdamW |
+| Learning Rate | 1e-4  |
 | Epochs | 200 |
 | Batch Size | 16 |
 
