@@ -1,6 +1,5 @@
 # particle-jet-super-resolution
-Model Selection and Optimization
-Model Selection
+
 
 This project uses a Generative Adversarial Network (GAN) for the task of jet image super-resolution. GANs are well suited for image reconstruction problems because they can learn to generate high-resolution outputs while preserving important spatial features.
 
