@@ -15,7 +15,7 @@ The generator learns to produce realistic images while the discriminator provide
 Convolutional neural networks were used in both the generator and discriminator because they are effective for extracting spatial features from image data. Upsampling layers in the generator progressively increase the resolution of the input image.
 
 
-Dataset Used and Specifics
+## Dataset Used and Specifics
 
 The dataset used in this project consists of particle jet images used for studying super-resolution in high-energy physics. Each sample in the dataset contains a pair of images:
 
@@ -25,7 +25,7 @@ High-resolution (HR) jet image – used as the ground truth target
 
 The dataset is stored in Parquet format, where each entry contains arrays representing the pixel intensities of the jet images.
 
-Dataset Structure
+## Dataset Structure
 
 Each record in the dataset includes:
 
@@ -43,7 +43,7 @@ y contains associated labels for the jet sample.
 
 The jet images represent energy deposition patterns of particles in detectors used in high-energy physics experiments.
 
-| Data Preprocessing |
+## Data Preprocessing 
 
 Before training the model, the dataset was processed as follows:
 
